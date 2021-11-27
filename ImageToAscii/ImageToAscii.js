@@ -53,7 +53,7 @@ function ImageToText()
 
     if (document.getElementById("DefaultThreshold").checked){
         threshold = document.getElementById("Threshold").value;
-        if (!braille) threshold =  2 - threshold / 127.5;
+        if (!braille) threshold =  2.5 - threshold / 127.5;
     }
     else{
         threshold = braille ? 127.5 : 1;
