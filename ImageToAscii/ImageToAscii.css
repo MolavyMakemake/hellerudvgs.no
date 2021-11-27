@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+#text{
+    background-color: black;
+    color: white;
+    font-family: Consolas;
+    font-size: 10px;
+    line-height: 11px;
+}
+
+#inv{
+    color: black;
+}
