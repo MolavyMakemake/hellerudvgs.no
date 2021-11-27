@@ -28,10 +28,10 @@ function GetSize(){
     let height;
 
     if (document.getElementById("DefaultHeight").checked){
-        height = 0;
+        height = 2 * document.getElementById("Height").value;
     }
     else{
-        height = 2 * document.getElementById("Height").value;
+        height = 0;
     }
 
     if (height == 0 || (height > img.height * window.innerWidth / img.width / 5.7)){
