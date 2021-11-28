@@ -1,0 +1,81 @@
+#Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 100%;
+    font-size: xx-large;
+}
+
+#VerticalCon{
+    height: 80vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Circle{
+    position: relative;
+    left: -5vh;
+}
+#Cross{
+    position: relative;
+    left: 5vh;
+}
+
+#WhoWon{
+    position: relative;
+    top: -5vh;
+}
+#WhosNext{
+    position: relative;
+    top: 5vh;
+}
+
+#Board{
+    align-self: center;
+    position: relative;
+    width: 60vh;
+    height: 60vh;
+}
+
+#Board > div{
+    background-color: black;
+    position: absolute;
+}
+
+#Game{
+    background-color: white !important;
+    display: grid;
+    grid-template-columns: 20vh 20vh 20vh;
+    grid-template-rows: 20vh 20vh 20vh;
+}
+
+#Game > div{
+    justify-self: center;
+    align-self: center;
+}
+
+.Circle{
+    width: 12vh;
+    height: 12vh;
+    border: solid black 0.8vh;
+    border-radius: 50%;
+}
+
+.Cross {
+    width: 16vh;
+    height: 16vh;
+    position: relative;
+}
+
+.Cross:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: "\002573"; /* use the hex value here... */
+    font-size: 10vh; 
+    text-align: center;
+}
