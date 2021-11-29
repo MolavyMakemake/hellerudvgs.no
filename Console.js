@@ -17,8 +17,9 @@ function logKey(e){
                 else if (s == "cd BildeTilTekst") window.open("BildeTilTekst/BildeTilTekst.html");
                 else if (s == "cd 3påRad") window.open("3påRad/3påRad.html");
                 else if (s == "cd Snake") window.open("Snake/Snake.html");
-                if (c[c.lenght - 1] != "/") {c.querySelector("#Directory").innerHTML += "/"}
-                c.querySelector("#Directory").innerHTML += s.substring(3, l.innerHTML.lenght) + "/";
+                if (c.innerHTML[c.innerHTML.length - 15] != "/") {c.querySelector("#Directory").innerHTML += "/"}
+                if (s[s.length - 1] != "/") s += "/";
+                c.querySelector("#Directory").innerHTML += s.substring(3, l.innerHTML.length);
             }
             else if (s.substring(0, 2) == "ls"){
                 yoshiTick = 0;
