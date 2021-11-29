@@ -13,6 +13,10 @@ function logKey(e){
             document.getElementById("Unchangable").innerHTML += l.innerHTML + "<br>";
 
             if (s.substring(0, 2) == "cd"){
+                if (s == "cd Proging") window.open("https://proging.no/");
+                else if (s == "cd BildeTilTekst") window.open("BildeTilTekst/BildeTilTekst.html");
+                else if (s == "cd 3påRad") window.open("3påRad/3påRad.html");
+                else if (s == "cd Snake") window.open("Snake/Snake.html");
                 if (c[c.lenght - 1] != "/") {c.querySelector("#Directory").innerHTML += "/"}
                 c.querySelector("#Directory").innerHTML += s.substring(3, l.innerHTML.lenght) + "/";
             }
