@@ -1,44 +1,133 @@
-<!DOCTYPE html>
 <html lang="no">
-<head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="Console.css">
-    <meta charset="UTF-8">
-    <title>Hellerud VGS IT</title>
-</head>
-<body>
-    
-<div id="Console">
-    <div id="Unchangable">
-        Hvis du ønsker å bidra til nettsiden (mail "karl2401@osloskolen.no"), send "som &lt !doctype html &gt".<br>
-        Se "Documents" for 652 sider med dokumentasjon.<br>
-        <br>
-        <span id="User">user0561@ITskolen.no</span>:<span id="Directory">~</span>
-        $ ls<br>
-        <a href="tictac/main.html" target="_blank">3påRad: Story Mode - A Telltale Game Series</a><br>
-        <a href="https://proging.no/" target="_blank">Proging</a>&emsp;&emsp;
-        <a href="BildeTilTekst/BildeTilTekst.html" target="_blank">BildeTilTekst</a>&emsp;&ensp;&nbsp;
-        <a href="3påRad/3påRad.html" target="_blank">3påRad</a>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
-        <a href="Snake/Snake.html" target="_blank">Snake</a><br>
-        
-        <span id="Directory">Desktop&emsp;&emsp;Downloads&emsp;&emsp;&emsp;<mark id="Directory" style="background-color:green;">unitybarcodefonts</mark>&emsp;&emsp;Music&emsp;&nbsp;Public&emsp;</span>
-        <a href="4Drotasjon/nettside.html">4D-Rotasjon</a><br>
-        
-        <span class="Doc" id="Directory"><a href="http://www.script-o-rama.com/movie_scripts/a1/bee-movie-script-transcript-seinfeld.html" target="_blank">Documents</a>
-        </span>&ensp;examples.desktop<span style="color: red;">&ensp;unitybarcodefonts.zip</span>&ensp;<span id="Directory">Pictures&ensp;Templates</span><br>
-
-    </div>
-    <div id="Writing">
-        <div id="Line">
-            <div id="Text">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hellerud VGS</title>
+        <link rel="stylesheet" href="main-style.css">
+        <link rel="stylesheet" href="colours-fonts.css">
+    </head>
+    <body>
+        <div id="container" class="container">
+            <div id="skybar" class="skybar">
+                <a href="http://hellerudvgs.no" class="sb-r">
+                    <div id="sb-l" class="sb-l" >
+                        <h3>
+                            Hellerud Video-Grafiske Spill
+                        </h3>
+                    </div>
+                </a>
+                    <div class="sb-d"></div>
+                <a href="#spill"class="sb-m">
+                    <div id="sb-m" class="sb-m"> 
+                        <h4>
+                            SPILL
+                        </h4>
+                    </div>
+                </a>
+                    <div class="sb-d"></div>
+                <a href="#programmer"class="sb-m">
+                    <div id="sb-m" class="sb-m"> 
+                        <h4>
+                            PROGRAMMER
+                        </h4>
+                    </div>
+                </a>
+                    <div class="sb-d"></div>
+                <a href="#om-oss" class="sb-m">
+                    <div id="sb-m" class="sb-m"> 
+                        <h4>
+                            OM OSS          
+                        </h4>
+                    </div>
+                </a>
+                    <div class="sb-d"></div>
+                <a href="http://hellerud.vgs.no" class="sb-r">
+                    <div id="sb-r" class="sb-r">
+                        <h3>
+                            Feil Nettside?
+                        </h3>
+                    </div>
+                </a>
             </div>
-            <div id="Cursor"></div>
+
+            <div id="main" class="main">
+                <div id="main-div-spill" class="spill main-div">
+                    <div id="spill" class="main-link-offset"></div>
+                    <div id="spill-header" class="main-div-header">
+                        <div>
+                            <h2>
+                                • SPILL
+                            </h2>
+                        </div>
+                    
+                    </div>
+                    <div id="spill-breader" class="main-div-breader">
+                        <div id="spill-slider-container"class="slider-container">
+                            <div id="spill-slider" class="slider">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-div-programmer" class="programmer main-div">
+                    <div id="programmer" class="main-link-offset"></div>
+                    <div id="programmer-header" class="main-div-header">
+                        <div>
+                            <h2>
+                                • Programmer
+                            </h2>
+                        </div>
+                    </div>
+                    <div id="programmer-breader" class="main-div-breader">
+                        <div id="programmer-slider-container"class="slider-container">
+                            <div id="programmer-slider" class="slider">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="main-div-om-oss" class="om-oss main-div">
+                    <div id="om-oss" class="main-link-offset"></div>
+                    <div id="om-oss-header" class="main-div-header">
+                        <div>
+                            <h2>
+                                • om oss
+                            </h2>
+                        </div>
+                    </div>
+                    <div id="om-oss-breader" class="main-div-breader">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="footer" class="footer">
+                <div class="footer-header">
+                    <h3>
+                        Kontakt:
+                    </h3>       
+                        
+                </div>
+                    <div class="footer-splitter"></div>
+                <div class="footer-breader">
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="mailto:e.post@post.post">e.post@post.post</a>
+                            </li>
+                            <li>
+                                <a href="mailto:e.post@post.post">a.poster@post.post</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-<div id="Copy"><span id='User'>user0561@ITskolen.no</span>:<span id='Directory'>~</span>$&nbsp;</div>
 
-<script src="Console.js"></script>
 
-</body>
+        <script src="gp-links.js"></script>
+        <script src="main.js"></script>
+    </body>
 </html>

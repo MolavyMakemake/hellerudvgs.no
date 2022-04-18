@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Snake.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Snake</title>
+</head>
+<body>
+
+    <div id="Container">
+        <div id="Info">
+            Controls:<br>
+            Arrow Keys - Movement<br>
+            Escape - Pause<br>
+            . / , - Change Speed<br>
+            l - Legacy Graphics
+        </div>
+        <div id="Board">
+            <div id="Game">
+                <div id="Snake"></div>
+                <div id="Apple"></div>
+            </div>
+        </div>
+        <div id="Info2">
+            <p id="Speed">Speed: 10</p>
+            <p id="Score">Score: 0</p>
+        </div>
+    </div>
+
+    <script src="MakeGrid.js"></script>
+    <script src="Snake.js"></script>
+</body>
+</html>
