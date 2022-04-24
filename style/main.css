@@ -16,7 +16,7 @@ flex-direction: column;align-items: center;width: 100%;}
     height: calc(100vh - 30px);
     min-width: 58vh;
     max-width: 75vh;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 background-color: #FAFAFA;}
 
 .image{
