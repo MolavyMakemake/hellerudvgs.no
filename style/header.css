@@ -1,0 +1,16 @@
+.cutout{
+    background-color: #FAFAFA;
+overflow: hidden;}
+
+.headerHellerud{
+    width: 100%;
+    text-align: center;
+font-size: 10vh;}
+
+.headerVGS{
+    
+height: 50%;transform: translate(1.2vh);}
+
+.headerVGS > h1{
+    font-size: 20vh;
+}

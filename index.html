@@ -2,132 +2,104 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hellerud VGS</title>
-        <link rel="stylesheet" href="main-style.css">
-        <link rel="stylesheet" href="colours-fonts.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/text.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/introduction.css">
     </head>
     <body>
-        <div id="container" class="container">
-            <div id="skybar" class="skybar">
-                <a href="http://hellerudvgs.no" class="sb-r">
-                    <div id="sb-l" class="sb-l" >
-                        <h3>
-                            Hellerud Video-Grafiske Spill
-                        </h3>
-                    </div>
-                </a>
-                    <div class="sb-d"></div>
-                <a href="#spill"class="sb-m">
-                    <div id="sb-m" class="sb-m"> 
-                        <h4>
-                            SPILL
-                        </h4>
-                    </div>
-                </a>
-                    <div class="sb-d"></div>
-                <a href="#programmer"class="sb-m">
-                    <div id="sb-m" class="sb-m"> 
-                        <h4>
-                            PROGRAMMER
-                        </h4>
-                    </div>
-                </a>
-                    <div class="sb-d"></div>
-                <a href="#om-oss" class="sb-m">
-                    <div id="sb-m" class="sb-m"> 
-                        <h4>
-                            OM OSS          
-                        </h4>
-                    </div>
-                </a>
-                    <div class="sb-d"></div>
-                <a href="http://hellerud.vgs.no" class="sb-r">
-                    <div id="sb-r" class="sb-r">
-                        <h3>
-                            Feil Nettside?
-                        </h3>
-                    </div>
-                </a>
+        <!-- Header -->
+        <div class="grid header">
+            <div class="image" style="background-image: url('images/banner.jpg'); grid-area: 1 / 1 / 6 / 12;"></div>
+            
+            <div class="cutout align-center" style="grid-area: 2 / 1 / 3 / 9;">
+                <h2 class="headerHellerud">Hellerud</h2>
             </div>
-
-            <div id="main" class="main">
-                <div id="main-div-spill" class="spill main-div">
-                    <div id="spill" class="main-link-offset"></div>
-                    <div id="spill-header" class="main-div-header">
-                        <div>
-                            <h2>
-                                • SPILL
-                            </h2>
-                        </div>
-                    
-                    </div>
-                    <div id="spill-breader" class="main-div-breader">
-                        <div id="spill-slider-container"class="slider-container">
-                            <div id="spill-slider" class="slider">
-
-
-                            </div>
-                        </div>
-                    </div>
+            
+            <div class="cutout" style="grid-area: 4 / 11 / 6 / 13;"></div>
+            <div class="cutout align-right text-right" style="grid-area: 4 / 4 / 6 / 12;">
+                <div class="headerVGS align-center">
+                    <h1>VGS</h1>
                 </div>
-                <div id="main-div-programmer" class="programmer main-div">
-                    <div id="programmer" class="main-link-offset"></div>
-                    <div id="programmer-header" class="main-div-header">
-                        <div>
-                            <h2>
-                                • Programmer
-                            </h2>
-                        </div>
-                    </div>
-                    <div id="programmer-breader" class="main-div-breader">
-                        <div id="programmer-slider-container"class="slider-container">
-                            <div id="programmer-slider" class="slider">
-                            
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div id="main-div-om-oss" class="om-oss main-div">
-                    <div id="om-oss" class="main-link-offset"></div>
-                    <div id="om-oss-header" class="main-div-header">
-                        <div>
-                            <h2>
-                                • om oss
-                            </h2>
-                        </div>
-                    </div>
-                    <div id="om-oss-breader" class="main-div-breader">
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div id="footer" class="footer">
-                <div class="footer-header">
-                    <h3>
-                        Kontakt:
-                    </h3>       
-                        
-                </div>
-                    <div class="footer-splitter"></div>
-                <div class="footer-breader">
-                    <p>
-                        <ul>
-                            <li>
-                                <a href="mailto:e.post@post.post">e.post@post.post</a>
-                            </li>
-                            <li>
-                                <a href="mailto:e.post@post.post">a.poster@post.post</a>
-                            </li>
-                        </ul>
-                    </p>
-                </div>
+                <h5>video-grafiske skole</h5>
+                <h6><br>Karl Olav Tyssvang<br>Bendik James Brown</h6>
             </div>
         </div>
 
+        <!-- Introduction -->
+        <div class="grid introduction">
+            <h3 class="align-bottom" style="grid-area: 1 / 1 / 2 / 13;">Gleden av å lage</h3>
+            
+            <div class="image" style="grid-area: 2 / 1 / 3 / 12; background-image: url('images/mb\ set.png');"></div>
+            <p class="placeholder" style="grid-area: 3 / 1 / 4 / 7;"></p>
 
-        <script src="gp-links.js"></script>
-        <script src="main.js"></script>
+            <div class="image" style="grid-area: 3 / 7 / 4 / 10; background-image: url('images/fraktal.png');"></div>
+            <p class="placeholder" style="grid-area: 3 / 10 / 4 / 13;"></p>
+
+            <div class="image" style="grid-area: 4 / 7 / 5 / 10; background-image: url('images/knights\ tour.png');"></div>
+            <p class="placeholder" style="grid-area: 4 / 10 / 5 / 13;"></p>
+            
+            <div class="image" style="grid-area: 5 / 1 / 6 / 10; background-image: url('images/rope\ sim.png');"></div>
+            <p class="placeholder" style="grid-area: 5 / 10 / 6 / 13;"></p>
+            
+            <div class="image" style="grid-area: 6 / 1 / 7 / 10; background-image: url('images/cell\ sim.png');"></div>
+            <p class="placeholder" style="grid-area: 6 / 10 / 7 / 13;"></p>
+        </div>
+
+        <!-- Javascript -->
+        <div class="grid javascript">
+            <h3 style="grid-area: 1 / 1 / 2 / 13;">Javascript</h3>
+            
+            <div class="image" style="grid-area: 1 / 6 / 3 / 12; background-image: url('images/snake.PNG');"></div>
+            <p class="placeholder" style="grid-area: 2 / 1 / 3 / 6;"></p>
+            
+            <div class="image" style="grid-area: 3 / 7 / 5 / 13; background-image: url('images/3\ på\ rad.PNG');"></div>
+            <p class="placeholder" style="grid-area: 4 / 1 / 5 / 4;"></p>
+            <p class="placeholder" style="grid-area: 4 / 5 / 5 / 8;"></p>
+            
+            <div class="image" style="grid-area: 5 / 6 / 7 / 12; background-image: url('images/tictac.PNG');"></div>
+            <p class="placeholder" style="grid-area: 6 / 1 / 7 / 6;"></p>
+        </div>
+
+        <!-- Unity 1 -->
+        <div class="grid unity1">
+            <h3 class="align-bottom" style="grid-area: 1 / 1 / 2 / 9;"">Lås opp kreativiteten med Unity</h3>
+
+            <div class="image" style="grid-area: 1 / 9 / 2 / 12; background-image: url('images/earth.png');"></div>
+            <div class="image" style="grid-area: 2 / 9 / 3 / 12; background-image: url('images/moon.png');"></div>
+
+            <div class="image" style="grid-area: 3 / 1 / 5 / 12; background-image: url('images/planets.png');"></div>
+        </div>
+
+        <!-- Unity 2 -->
+        <div class="grid unity2">
+            <div class="image" style="grid-area: 2 / 1 / 3 / 12; background-image: url('images/level.png');"></div>
+
+            <div class="image" style="grid-area: 3 / 4 / 5 / 12; background-image: url('images/combat.png');"></div>
+        </div>
+
+        <!-- About us -->
+        <div class="grid about-us">
+            <h3 style="grid-area: 1 / 1 / 2 / 9">Inspirert til å lære å kode?</h3>
+            <p style="grid-area: 1 / 9 / 2 / 13">
+                    Python: https://python.land/introduction-to-python
+                <br>C#: https://docs.microsoft.com/en-us/dotnet/csharp/
+                <br>javascript: https://javascript.info/</p>
+
+            <h3 class="align-bottom" style="grid-area: 2 / 1 / 3 / 9;">Om oss</h3>
+            <div class="image" style="grid-area: 3 / 1 / 5 / 9; background-image: url('images/olav.jpg');"></div>
+            <div class="image" style="grid-area: 5 / 6 / 7 / 13; background-image: url('images/bendik.png');"></div>
+        </div>
+
+        <script>
+            document.querySelectorAll(".placeholder").forEach((e) => {
+                e.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+            })
+        </script>
     </body>
 </html>
